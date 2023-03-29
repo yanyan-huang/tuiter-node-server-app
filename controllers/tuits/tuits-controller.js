@@ -13,7 +13,7 @@ const createTuit = (req, res) => {
     newTuit.replies = 0;
     newTuit.retuits = 0;
     newTuit.username = "NASA";
-    newTuit.handle = "@nasa";
+    newTuit.handle = "@NASA";
     tuits.push(newTuit);
     res.json(newTuit);
   }
